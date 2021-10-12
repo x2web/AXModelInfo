@@ -12,7 +12,7 @@ extension AXModelInfo {
     /// Device model name
     static var name: String? = {
         let result = names[code]
-        return result == simulator ? result + " " + names[simulatorIdentifier] : result
+        return result == simulator ? simulator + " " + (names[simulatorIdentifier] ?? "iOS") : result
     }()
     
     static var simulatorIdentifier: String {

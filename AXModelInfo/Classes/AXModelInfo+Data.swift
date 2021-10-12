@@ -348,5 +348,5 @@ extension AXModelInfo {
         "x86_64": 226 // Simulator
     ]
     
-    private static let simulator = "Simulator"
+    static let simulator = "Simulator"
 }
