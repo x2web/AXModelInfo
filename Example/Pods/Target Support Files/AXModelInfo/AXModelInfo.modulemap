@@ -1,0 +1,6 @@
+framework module AXModelInfo {
+  umbrella header "AXModelInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

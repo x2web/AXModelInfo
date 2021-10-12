@@ -1,0 +1,16 @@
+PODS:
+  - AXModelInfo (0.1.0)
+
+DEPENDENCIES:
+  - AXModelInfo (from `../`)
+
+EXTERNAL SOURCES:
+  AXModelInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXModelInfo: e8295d6a8569a909752625c186d665c5a1d30a1c
+
+PODFILE CHECKSUM: 2b9e34ecd92feecaab97e77e06b510ed17b9a0df
+
+COCOAPODS: 1.10.1
