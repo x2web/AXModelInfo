@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AXModelInfo_Tests' do
+  pod 'AXModelInfo', :path => '../'
+  
+  
+end
