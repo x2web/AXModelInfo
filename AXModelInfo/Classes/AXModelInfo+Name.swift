@@ -11,11 +11,10 @@ import UIKit.UIDevice
 extension AXModelInfo {
     /// Device model name
     static var name: String? = {
-        let result = names[code]
-        return result == simulator ? simulator + " " + (names[simulatorIdentifier] ?? "iOS") : result
+#if targetEnvironment(simulator)
+    simulator + " " + (names[code] ?? code)
+#else
+    names[code] ?? code
+#endif
     }()
-    
-    static var simulatorIdentifier: String {
-        ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] ?? "iOS"
-    }
 }

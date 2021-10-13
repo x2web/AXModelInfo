@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AXModelInfo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AXModelInfo.'
+  s.version          = '0.1.1'
+  s.summary          = 'Detect device model name, ppi and diagonal.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This simple pod provides the following device information
+  
+  - device code
+  - name
+  - display ppi
+  - display diagonal
+  
+  Support for all devices is not guaranteed.
                        DESC
 
   s.homepage         = 'https://github.com/x2web/AXModelInfo/'

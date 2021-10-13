@@ -14,8 +14,9 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let deviceCode = "iPhone14,5"
+//        XCTAssertEqual(AXModelInfo.names[deviceCode], "iPhone 13")
+//        XCTAssertEqual(AXModelInfo.PPIs[deviceCode], 460)
     }
     
     func testPerformanceExample() {
